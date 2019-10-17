@@ -197,7 +197,7 @@ public:
         consensus.nSuperblockStartBlock = 250; // NOTE: Should satisfy nSuperblockStartBlock > nBudgetPeymentsStartBlock
         consensus.nSuperblockCycle = 24; // Superblocks can be issued hourly on testnet
         consensus.nGovernanceMinQuorum = 1;
-        consensus.nGovernanceFilterElements = 500;
+        consensus.nGovernanceFilterElements = 1000;
         consensus.nMasternodeMinimumConfirmations = 1;
         consensus.nMajorityEnforceBlockUpgrade = 51;
         consensus.nMajorityRejectBlockOutdated = 75;
